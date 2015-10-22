@@ -1,5 +1,5 @@
 # WearableComputing_GettingandCleaningData
-## *significant workings of script*, see in script comments
+## *significant workings of script*, see in-script comments
 ## Samsung data must be unzipped and placed in the working directory
 
 1. Lines 1-9: read the data into seperate tables

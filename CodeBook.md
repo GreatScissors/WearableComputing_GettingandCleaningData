@@ -1,10 +1,21 @@
-"Column #" "Variable"                                                         Features are normalized and bounded within [-1,1].
-3 "tBodyAcc-mean()-X"                                                         - "Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration."
-4 "tBodyAcc-mean()-Y"                                                         - "Triaxial Angular velocity from the gyroscope."
-5 "tBodyAcc-mean()-Z" 							      -  X,Y,Z represents the direction 
-6 "tBodyAcc-std()-X"                                                          -  Fast Fourier Transform (FFT) was applied on the variable names marked with an "f" in front which represents frequency domain signals
-7 "tBodyAcc-std()-Y"                                                          -  std represents standard deviation
-8 "tBodyAcc-std()-Z"                                                          *** All values that included std or mean in their names were included ***
+# Code Book
+#*All values that included std or mean in their names were included*
+
+##Features are normalized and bounded within [-1,1].
+##"Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration."
+##"Triaxial Angular velocity from the gyroscope."
+##X,Y,Z represents the direction 
+##Fast Fourier Transform (FFT) was applied on the variable names marked with an "f" in front which represents frequency domain signals
+##std represents standard deviation
+
+
+"Column #" "Variable" 
+3 "tBodyAcc-mean()-X"                                                         
+4 "tBodyAcc-mean()-Y"                                                         
+5 "tBodyAcc-mean()-Z" 
+6 "tBodyAcc-std()-X"
+7 "tBodyAcc-std()-Y"
+8 "tBodyAcc-std()-Z"
 9 "tGravityAcc-mean()-X"
 10 "tGravityAcc-mean()-Y"
 11 "tGravityAcc-mean()-Z"
