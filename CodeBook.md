@@ -1,15 +1,17 @@
 # Code Book
-##*All variables that included std or mean in their names were included*
-## each cell under the variable represents the mean of the data for each subject and each activity
 
-###Features are normalized and bounded within [-1,1].
-###"Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration."
-###"Triaxial Angular velocity from the gyroscope."
-###X,Y,Z represents the direction 
-###Fast Fourier Transform (FFT) was applied on the variable names marked with an "f" in front which represents frequency domain signals
-###std represents standard deviation
+####### Data Information
 
-#### The variables start in third column in the TidyData.txt file data frame
+*All variables that included std or mean in their names were included*
+Features are normalized and bounded within [-1,1].
+"Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration."
+"Triaxial Angular velocity from the gyroscope."
+X,Y,Z represents the direction 
+Fast Fourier Transform (FFT) was applied on the variable names marked with an "f" in front which represents frequency domain signals
+std represents standard deviation
+
+######The variables start in third column in the TidyData.txt file data frame
+###### Each cell under the variable represents the mean of the data for each subject and each activity
 
 "Column #" "Variable" 
 3 "tBodyAcc-mean()-X"                                                         
